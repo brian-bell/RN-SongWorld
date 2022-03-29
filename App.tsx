@@ -25,7 +25,7 @@ const App = () => {
   const [songs, setSongs] = useState<any[]>();
 
   const authParams: AuthConfiguration = {
-    clientId: '',
+    clientId: 'b6492dc6cc534644aecefefcc8dd76e6',
     redirectUrl: 'com.bbell.songworld:/oauth',
     usePKCE: true,
     scopes: ['user-top-read'],
